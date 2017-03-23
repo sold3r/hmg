@@ -8,6 +8,7 @@ public class hmg
 		Vector<String> noms=new Vector<String>();                                                     
 		JFrame frame = new JFrame("Ventana Hola Mundo");
 		noms.add("Ricardo");
+		noms.add("EfraimM");
 		frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		// SE CREA LA ETIQUETA, INICIALMENTE INDEPENDIENTE DE LA VENTANA
 		int num = (int)((Math.random())*noms.size());
